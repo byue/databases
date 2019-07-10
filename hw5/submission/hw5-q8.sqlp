@@ -1,0 +1,8 @@
+USE hw5;
+SELECT c.name AS country_name, c.`-area` AS area
+FROM world as x, x.mondial.country AS c
+LET seas = (SELECT s.name
+			FROM x.mondial.sea AS s, split(s.`-country`, " ") AS countries
+			WHERE c.`-car_code` = countries) 
+WHERE ARRAY_COUNT(seas) = 0
+ORDER BY float(c.`-area`) DESC;

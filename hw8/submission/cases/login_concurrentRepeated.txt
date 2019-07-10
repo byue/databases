@@ -1,0 +1,22 @@
+# login with same users
+create user user1 100
+login user user1
+quit
+*
+Created user user
+Logged in as user
+Goodbye
+|
+Created user user
+Logged in as user
+Goodbye
+*
+login user user1
+quit
+*
+Login failed
+Goodbye
+|
+Logged in as user
+Goodbye
+*

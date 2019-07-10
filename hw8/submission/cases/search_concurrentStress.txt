@@ -1,0 +1,433 @@
+# tests search with 3 threads 
+search "Seattle WA" "Boston MA" 0 19 50
+*
+Itinerary 0: 1 flight(s), 289.0 minutes
+ID: 712113 Date: 2015-7-19 Carrier: AS Number: 734 Origin: Seattle WA Dest: Boston MA Duration: 289.0 Capacity: 3 Price: 496.89
+Itinerary 1: 1 flight(s), 289.0 minutes
+ID: 735230 Date: 2015-7-19 Carrier: B6 Number: 1698 Origin: Seattle WA Dest: Boston MA Duration: 289.0 Capacity: 19 Price: 994.1
+Itinerary 2: 1 flight(s), 293.0 minutes
+ID: 735008 Date: 2015-7-19 Carrier: B6 Number: 998 Origin: Seattle WA Dest: Boston MA Duration: 293.0 Capacity: 6 Price: 805.47
+Itinerary 3: 1 flight(s), 296.0 minutes
+ID: 60472 Date: 2005-7-19 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 296.0 Capacity: 15 Price: 321.44
+Itinerary 4: 1 flight(s), 297.0 minutes
+ID: 734806 Date: 2015-7-19 Carrier: B6 Number: 498 Origin: Seattle WA Dest: Boston MA Duration: 297.0 Capacity: 14 Price: 543.05
+Itinerary 5: 1 flight(s), 305.0 minutes
+ID: 711144 Date: 2015-7-19 Carrier: AS Number: 12 Origin: Seattle WA Dest: Boston MA Duration: 305.0 Capacity: 17 Price: 315.66
+Itinerary 6: 1 flight(s), 309.0 minutes
+ID: 711154 Date: 2015-7-19 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 309.0 Capacity: 13 Price: 511.91
+Itinerary 7: 1 flight(s), 310.0 minutes
+ID: 734855 Date: 2015-7-19 Carrier: B6 Number: 598 Origin: Seattle WA Dest: Boston MA Duration: 310.0 Capacity: 17 Price: 669.83
+Itinerary 8: 1 flight(s), 317.0 minutes
+ID: 60126 Date: 2005-7-19 Carrier: AS Number: 12 Origin: Seattle WA Dest: Boston MA Duration: 317.0 Capacity: 17 Price: 393.55
+Itinerary 9: 2 flight(s), 308.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 10: 2 flight(s), 309.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 11: 2 flight(s), 313.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 12: 2 flight(s), 314.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 13: 2 flight(s), 315.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 14: 2 flight(s), 316.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 15: 2 flight(s), 317.0 minutes
+ID: 300826 Date: 2005-7-19 Carrier: NW Number: 154 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 2 Price: 450.33
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 16: 2 flight(s), 317.0 minutes
+ID: 301074 Date: 2005-7-19 Carrier: NW Number: 160 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 8 Price: 860.74
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 17: 2 flight(s), 317.0 minutes
+ID: 301198 Date: 2005-7-19 Carrier: NW Number: 164 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 11 Price: 498.62
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 18: 2 flight(s), 317.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 19: 2 flight(s), 317.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 20: 2 flight(s), 318.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 21: 2 flight(s), 318.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 22: 2 flight(s), 318.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 23: 2 flight(s), 319.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 24: 2 flight(s), 319.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 915068 Date: 2015-7-19 Carrier: NK Number: 110 Origin: Detroit MI Dest: Boston MA Duration: 97.0 Capacity: 13 Price: 375.15
+Itinerary 25: 2 flight(s), 319.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 26: 2 flight(s), 319.0 minutes
+ID: 789757 Date: 2015-7-19 Carrier: DL Number: 1140 Origin: Seattle WA Dest: Minneapolis MN Duration: 181.0 Capacity: 9 Price: 285.06
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 27: 2 flight(s), 319.0 minutes
+ID: 792864 Date: 2015-7-19 Carrier: DL Number: 2547 Origin: Seattle WA Dest: Minneapolis MN Duration: 181.0 Capacity: 19 Price: 305.38
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 28: 2 flight(s), 320.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 915068 Date: 2015-7-19 Carrier: NK Number: 110 Origin: Detroit MI Dest: Boston MA Duration: 97.0 Capacity: 13 Price: 375.15
+Itinerary 29: 2 flight(s), 320.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 735272 Date: 2015-7-19 Carrier: B6 Number: 2036 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 0 Price: 300.87
+Itinerary 30: 2 flight(s), 320.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791354 Date: 2015-7-19 Carrier: DL Number: 1822 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 12 Price: 850.7
+Itinerary 31: 2 flight(s), 320.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 32: 2 flight(s), 321.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 33: 2 flight(s), 321.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 735272 Date: 2015-7-19 Carrier: B6 Number: 2036 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 0 Price: 300.87
+Itinerary 34: 2 flight(s), 321.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791354 Date: 2015-7-19 Carrier: DL Number: 1822 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 12 Price: 850.7
+Itinerary 35: 2 flight(s), 321.0 minutes
+ID: 592821 Date: 2005-7-19 Carrier: WN Number: 202 Origin: Seattle WA Dest: Chicago IL Duration: 208.0 Capacity: 18 Price: 504.06
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 36: 2 flight(s), 321.0 minutes
+ID: 711158 Date: 2015-7-19 Carrier: AS Number: 28 Origin: Seattle WA Dest: Minneapolis MN Duration: 183.0 Capacity: 5 Price: 830.73
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 37: 2 flight(s), 322.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 792836 Date: 2015-7-19 Carrier: DL Number: 2523 Origin: Detroit MI Dest: Boston MA Duration: 100.0 Capacity: 8 Price: 832.38
+Itinerary 38: 2 flight(s), 323.0 minutes
+ID: 300919 Date: 2005-7-19 Carrier: NW Number: 156 Origin: Seattle WA Dest: Minneapolis MN Duration: 185.0 Capacity: 2 Price: 745.16
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 39: 2 flight(s), 323.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 40: 2 flight(s), 323.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 792836 Date: 2015-7-19 Carrier: DL Number: 2523 Origin: Detroit MI Dest: Boston MA Duration: 100.0 Capacity: 8 Price: 832.38
+Itinerary 41: 2 flight(s), 323.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 42: 2 flight(s), 324.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 307219 Date: 2005-7-19 Carrier: NW Number: 380 Origin: Detroit MI Dest: Boston MA Duration: 102.0 Capacity: 18 Price: 823.56
+Itinerary 43: 2 flight(s), 324.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 44: 2 flight(s), 324.0 minutes
+ID: 711156 Date: 2015-7-19 Carrier: AS Number: 26 Origin: Seattle WA Dest: Chicago IL Duration: 211.0 Capacity: 19 Price: 427.11
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 45: 2 flight(s), 324.0 minutes
+ID: 998378 Date: 2015-7-19 Carrier: UA Number: 1977 Origin: Seattle WA Dest: Chicago IL Duration: 211.0 Capacity: 19 Price: 823.93
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 46: 2 flight(s), 325.0 minutes
+ID: 300826 Date: 2005-7-19 Carrier: NW Number: 154 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 2 Price: 450.33
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 47: 2 flight(s), 325.0 minutes
+ID: 301074 Date: 2005-7-19 Carrier: NW Number: 160 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 8 Price: 860.74
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 48: 2 flight(s), 325.0 minutes
+ID: 301198 Date: 2005-7-19 Carrier: NW Number: 164 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 11 Price: 498.62
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 49: 2 flight(s), 325.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 789512 Date: 2015-7-19 Carrier: DL Number: 868 Origin: Minneapolis MN Dest: Boston MA Duration: 155.0 Capacity: 14 Price: 990.09
+*
+search "Seattle WA" "Boston MA" 0 19 50
+*
+Itinerary 0: 1 flight(s), 289.0 minutes
+ID: 712113 Date: 2015-7-19 Carrier: AS Number: 734 Origin: Seattle WA Dest: Boston MA Duration: 289.0 Capacity: 3 Price: 496.89
+Itinerary 1: 1 flight(s), 289.0 minutes
+ID: 735230 Date: 2015-7-19 Carrier: B6 Number: 1698 Origin: Seattle WA Dest: Boston MA Duration: 289.0 Capacity: 19 Price: 994.1
+Itinerary 2: 1 flight(s), 293.0 minutes
+ID: 735008 Date: 2015-7-19 Carrier: B6 Number: 998 Origin: Seattle WA Dest: Boston MA Duration: 293.0 Capacity: 6 Price: 805.47
+Itinerary 3: 1 flight(s), 296.0 minutes
+ID: 60472 Date: 2005-7-19 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 296.0 Capacity: 15 Price: 321.44
+Itinerary 4: 1 flight(s), 297.0 minutes
+ID: 734806 Date: 2015-7-19 Carrier: B6 Number: 498 Origin: Seattle WA Dest: Boston MA Duration: 297.0 Capacity: 14 Price: 543.05
+Itinerary 5: 1 flight(s), 305.0 minutes
+ID: 711144 Date: 2015-7-19 Carrier: AS Number: 12 Origin: Seattle WA Dest: Boston MA Duration: 305.0 Capacity: 17 Price: 315.66
+Itinerary 6: 1 flight(s), 309.0 minutes
+ID: 711154 Date: 2015-7-19 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 309.0 Capacity: 13 Price: 511.91
+Itinerary 7: 1 flight(s), 310.0 minutes
+ID: 734855 Date: 2015-7-19 Carrier: B6 Number: 598 Origin: Seattle WA Dest: Boston MA Duration: 310.0 Capacity: 17 Price: 669.83
+Itinerary 8: 1 flight(s), 317.0 minutes
+ID: 60126 Date: 2005-7-19 Carrier: AS Number: 12 Origin: Seattle WA Dest: Boston MA Duration: 317.0 Capacity: 17 Price: 393.55
+Itinerary 9: 2 flight(s), 308.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 10: 2 flight(s), 309.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 11: 2 flight(s), 313.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 12: 2 flight(s), 314.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 13: 2 flight(s), 315.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 14: 2 flight(s), 316.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 15: 2 flight(s), 317.0 minutes
+ID: 300826 Date: 2005-7-19 Carrier: NW Number: 154 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 2 Price: 450.33
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 16: 2 flight(s), 317.0 minutes
+ID: 301074 Date: 2005-7-19 Carrier: NW Number: 160 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 8 Price: 860.74
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 17: 2 flight(s), 317.0 minutes
+ID: 301198 Date: 2005-7-19 Carrier: NW Number: 164 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 11 Price: 498.62
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 18: 2 flight(s), 317.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 19: 2 flight(s), 317.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 20: 2 flight(s), 318.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 21: 2 flight(s), 318.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 22: 2 flight(s), 318.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 23: 2 flight(s), 319.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 24: 2 flight(s), 319.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 915068 Date: 2015-7-19 Carrier: NK Number: 110 Origin: Detroit MI Dest: Boston MA Duration: 97.0 Capacity: 13 Price: 375.15
+Itinerary 25: 2 flight(s), 319.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 26: 2 flight(s), 319.0 minutes
+ID: 789757 Date: 2015-7-19 Carrier: DL Number: 1140 Origin: Seattle WA Dest: Minneapolis MN Duration: 181.0 Capacity: 9 Price: 285.06
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 27: 2 flight(s), 319.0 minutes
+ID: 792864 Date: 2015-7-19 Carrier: DL Number: 2547 Origin: Seattle WA Dest: Minneapolis MN Duration: 181.0 Capacity: 19 Price: 305.38
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 28: 2 flight(s), 320.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 915068 Date: 2015-7-19 Carrier: NK Number: 110 Origin: Detroit MI Dest: Boston MA Duration: 97.0 Capacity: 13 Price: 375.15
+Itinerary 29: 2 flight(s), 320.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 735272 Date: 2015-7-19 Carrier: B6 Number: 2036 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 0 Price: 300.87
+Itinerary 30: 2 flight(s), 320.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791354 Date: 2015-7-19 Carrier: DL Number: 1822 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 12 Price: 850.7
+Itinerary 31: 2 flight(s), 320.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 32: 2 flight(s), 321.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 33: 2 flight(s), 321.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 735272 Date: 2015-7-19 Carrier: B6 Number: 2036 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 0 Price: 300.87
+Itinerary 34: 2 flight(s), 321.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791354 Date: 2015-7-19 Carrier: DL Number: 1822 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 12 Price: 850.7
+Itinerary 35: 2 flight(s), 321.0 minutes
+ID: 592821 Date: 2005-7-19 Carrier: WN Number: 202 Origin: Seattle WA Dest: Chicago IL Duration: 208.0 Capacity: 18 Price: 504.06
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 36: 2 flight(s), 321.0 minutes
+ID: 711158 Date: 2015-7-19 Carrier: AS Number: 28 Origin: Seattle WA Dest: Minneapolis MN Duration: 183.0 Capacity: 5 Price: 830.73
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 37: 2 flight(s), 322.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 792836 Date: 2015-7-19 Carrier: DL Number: 2523 Origin: Detroit MI Dest: Boston MA Duration: 100.0 Capacity: 8 Price: 832.38
+Itinerary 38: 2 flight(s), 323.0 minutes
+ID: 300919 Date: 2005-7-19 Carrier: NW Number: 156 Origin: Seattle WA Dest: Minneapolis MN Duration: 185.0 Capacity: 2 Price: 745.16
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 39: 2 flight(s), 323.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 40: 2 flight(s), 323.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 792836 Date: 2015-7-19 Carrier: DL Number: 2523 Origin: Detroit MI Dest: Boston MA Duration: 100.0 Capacity: 8 Price: 832.38
+Itinerary 41: 2 flight(s), 323.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 42: 2 flight(s), 324.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 307219 Date: 2005-7-19 Carrier: NW Number: 380 Origin: Detroit MI Dest: Boston MA Duration: 102.0 Capacity: 18 Price: 823.56
+Itinerary 43: 2 flight(s), 324.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 44: 2 flight(s), 324.0 minutes
+ID: 711156 Date: 2015-7-19 Carrier: AS Number: 26 Origin: Seattle WA Dest: Chicago IL Duration: 211.0 Capacity: 19 Price: 427.11
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 45: 2 flight(s), 324.0 minutes
+ID: 998378 Date: 2015-7-19 Carrier: UA Number: 1977 Origin: Seattle WA Dest: Chicago IL Duration: 211.0 Capacity: 19 Price: 823.93
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 46: 2 flight(s), 325.0 minutes
+ID: 300826 Date: 2005-7-19 Carrier: NW Number: 154 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 2 Price: 450.33
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 47: 2 flight(s), 325.0 minutes
+ID: 301074 Date: 2005-7-19 Carrier: NW Number: 160 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 8 Price: 860.74
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 48: 2 flight(s), 325.0 minutes
+ID: 301198 Date: 2005-7-19 Carrier: NW Number: 164 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 11 Price: 498.62
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 49: 2 flight(s), 325.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 789512 Date: 2015-7-19 Carrier: DL Number: 868 Origin: Minneapolis MN Dest: Boston MA Duration: 155.0 Capacity: 14 Price: 990.09
+*
+search "Seattle WA" "Boston MA" 0 19 50
+*
+Itinerary 0: 1 flight(s), 289.0 minutes
+ID: 712113 Date: 2015-7-19 Carrier: AS Number: 734 Origin: Seattle WA Dest: Boston MA Duration: 289.0 Capacity: 3 Price: 496.89
+Itinerary 1: 1 flight(s), 289.0 minutes
+ID: 735230 Date: 2015-7-19 Carrier: B6 Number: 1698 Origin: Seattle WA Dest: Boston MA Duration: 289.0 Capacity: 19 Price: 994.1
+Itinerary 2: 1 flight(s), 293.0 minutes
+ID: 735008 Date: 2015-7-19 Carrier: B6 Number: 998 Origin: Seattle WA Dest: Boston MA Duration: 293.0 Capacity: 6 Price: 805.47
+Itinerary 3: 1 flight(s), 296.0 minutes
+ID: 60472 Date: 2005-7-19 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 296.0 Capacity: 15 Price: 321.44
+Itinerary 4: 1 flight(s), 297.0 minutes
+ID: 734806 Date: 2015-7-19 Carrier: B6 Number: 498 Origin: Seattle WA Dest: Boston MA Duration: 297.0 Capacity: 14 Price: 543.05
+Itinerary 5: 1 flight(s), 305.0 minutes
+ID: 711144 Date: 2015-7-19 Carrier: AS Number: 12 Origin: Seattle WA Dest: Boston MA Duration: 305.0 Capacity: 17 Price: 315.66
+Itinerary 6: 1 flight(s), 309.0 minutes
+ID: 711154 Date: 2015-7-19 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 309.0 Capacity: 13 Price: 511.91
+Itinerary 7: 1 flight(s), 310.0 minutes
+ID: 734855 Date: 2015-7-19 Carrier: B6 Number: 598 Origin: Seattle WA Dest: Boston MA Duration: 310.0 Capacity: 17 Price: 669.83
+Itinerary 8: 1 flight(s), 317.0 minutes
+ID: 60126 Date: 2005-7-19 Carrier: AS Number: 12 Origin: Seattle WA Dest: Boston MA Duration: 317.0 Capacity: 17 Price: 393.55
+Itinerary 9: 2 flight(s), 308.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 10: 2 flight(s), 309.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 11: 2 flight(s), 313.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 12: 2 flight(s), 314.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 13: 2 flight(s), 315.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 14: 2 flight(s), 316.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 15: 2 flight(s), 317.0 minutes
+ID: 300826 Date: 2005-7-19 Carrier: NW Number: 154 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 2 Price: 450.33
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 16: 2 flight(s), 317.0 minutes
+ID: 301074 Date: 2005-7-19 Carrier: NW Number: 160 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 8 Price: 860.74
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 17: 2 flight(s), 317.0 minutes
+ID: 301198 Date: 2005-7-19 Carrier: NW Number: 164 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 11 Price: 498.62
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 18: 2 flight(s), 317.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 19: 2 flight(s), 317.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 20: 2 flight(s), 318.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 21: 2 flight(s), 318.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 22: 2 flight(s), 318.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 23: 2 flight(s), 319.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 24: 2 flight(s), 319.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 915068 Date: 2015-7-19 Carrier: NK Number: 110 Origin: Detroit MI Dest: Boston MA Duration: 97.0 Capacity: 13 Price: 375.15
+Itinerary 25: 2 flight(s), 319.0 minutes
+ID: 341859 Date: 2005-7-19 Carrier: NW Number: 1928 Origin: Seattle WA Dest: Minneapolis MN Duration: 171.0 Capacity: 11 Price: 921.81
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 26: 2 flight(s), 319.0 minutes
+ID: 789757 Date: 2015-7-19 Carrier: DL Number: 1140 Origin: Seattle WA Dest: Minneapolis MN Duration: 181.0 Capacity: 9 Price: 285.06
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 27: 2 flight(s), 319.0 minutes
+ID: 792864 Date: 2015-7-19 Carrier: DL Number: 2547 Origin: Seattle WA Dest: Minneapolis MN Duration: 181.0 Capacity: 19 Price: 305.38
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 28: 2 flight(s), 320.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 915068 Date: 2015-7-19 Carrier: NK Number: 110 Origin: Detroit MI Dest: Boston MA Duration: 97.0 Capacity: 13 Price: 375.15
+Itinerary 29: 2 flight(s), 320.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 735272 Date: 2015-7-19 Carrier: B6 Number: 2036 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 0 Price: 300.87
+Itinerary 30: 2 flight(s), 320.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 791354 Date: 2015-7-19 Carrier: DL Number: 1822 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 12 Price: 850.7
+Itinerary 31: 2 flight(s), 320.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 735246 Date: 2015-7-19 Carrier: B6 Number: 1836 Origin: Detroit MI Dest: Boston MA Duration: 92.0 Capacity: 16 Price: 412.96
+Itinerary 32: 2 flight(s), 321.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 33: 2 flight(s), 321.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 735272 Date: 2015-7-19 Carrier: B6 Number: 2036 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 0 Price: 300.87
+Itinerary 34: 2 flight(s), 321.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 791354 Date: 2015-7-19 Carrier: DL Number: 1822 Origin: Detroit MI Dest: Boston MA Duration: 98.0 Capacity: 12 Price: 850.7
+Itinerary 35: 2 flight(s), 321.0 minutes
+ID: 592821 Date: 2005-7-19 Carrier: WN Number: 202 Origin: Seattle WA Dest: Chicago IL Duration: 208.0 Capacity: 18 Price: 504.06
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 36: 2 flight(s), 321.0 minutes
+ID: 711158 Date: 2015-7-19 Carrier: AS Number: 28 Origin: Seattle WA Dest: Minneapolis MN Duration: 183.0 Capacity: 5 Price: 830.73
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 37: 2 flight(s), 322.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 792836 Date: 2015-7-19 Carrier: DL Number: 2523 Origin: Detroit MI Dest: Boston MA Duration: 100.0 Capacity: 8 Price: 832.38
+Itinerary 38: 2 flight(s), 323.0 minutes
+ID: 300919 Date: 2005-7-19 Carrier: NW Number: 156 Origin: Seattle WA Dest: Minneapolis MN Duration: 185.0 Capacity: 2 Price: 745.16
+ID: 792866 Date: 2015-7-19 Carrier: DL Number: 2549 Origin: Minneapolis MN Dest: Boston MA Duration: 138.0 Capacity: 13 Price: 554.53
+Itinerary 39: 2 flight(s), 323.0 minutes
+ID: 301012 Date: 2005-7-19 Carrier: NW Number: 158 Origin: Seattle WA Dest: Minneapolis MN Duration: 175.0 Capacity: 14 Price: 867.37
+ID: 789446 Date: 2015-7-19 Carrier: DL Number: 808 Origin: Minneapolis MN Dest: Boston MA Duration: 148.0 Capacity: 19 Price: 751.46
+Itinerary 40: 2 flight(s), 323.0 minutes
+ID: 302300 Date: 2005-7-19 Carrier: NW Number: 210 Origin: Seattle WA Dest: Detroit MI Duration: 223.0 Capacity: 9 Price: 626.79
+ID: 792836 Date: 2015-7-19 Carrier: DL Number: 2523 Origin: Detroit MI Dest: Boston MA Duration: 100.0 Capacity: 8 Price: 832.38
+Itinerary 41: 2 flight(s), 323.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 791096 Date: 2015-7-19 Carrier: DL Number: 1622 Origin: Detroit MI Dest: Boston MA Duration: 95.0 Capacity: 13 Price: 146.62
+Itinerary 42: 2 flight(s), 324.0 minutes
+ID: 302486 Date: 2005-7-19 Carrier: NW Number: 216 Origin: Seattle WA Dest: Detroit MI Duration: 222.0 Capacity: 15 Price: 171.12
+ID: 307219 Date: 2005-7-19 Carrier: NW Number: 380 Origin: Detroit MI Dest: Boston MA Duration: 102.0 Capacity: 18 Price: 823.56
+Itinerary 43: 2 flight(s), 324.0 minutes
+ID: 302610 Date: 2005-7-19 Carrier: NW Number: 222 Origin: Seattle WA Dest: Detroit MI Duration: 228.0 Capacity: 5 Price: 968.46
+ID: 791449 Date: 2015-7-19 Carrier: DL Number: 1903 Origin: Detroit MI Dest: Boston MA Duration: 96.0 Capacity: 2 Price: 454.78
+Itinerary 44: 2 flight(s), 324.0 minutes
+ID: 711156 Date: 2015-7-19 Carrier: AS Number: 26 Origin: Seattle WA Dest: Chicago IL Duration: 211.0 Capacity: 19 Price: 427.11
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 45: 2 flight(s), 324.0 minutes
+ID: 998378 Date: 2015-7-19 Carrier: UA Number: 1977 Origin: Seattle WA Dest: Chicago IL Duration: 211.0 Capacity: 19 Price: 823.93
+ID: 1098119 Date: 2015-7-19 Carrier: WN Number: 277 Origin: Chicago IL Dest: Boston MA Duration: 113.0 Capacity: 0 Price: 707.24
+Itinerary 46: 2 flight(s), 325.0 minutes
+ID: 300826 Date: 2005-7-19 Carrier: NW Number: 154 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 2 Price: 450.33
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 47: 2 flight(s), 325.0 minutes
+ID: 301074 Date: 2005-7-19 Carrier: NW Number: 160 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 8 Price: 860.74
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 48: 2 flight(s), 325.0 minutes
+ID: 301198 Date: 2005-7-19 Carrier: NW Number: 164 Origin: Seattle WA Dest: Minneapolis MN Duration: 179.0 Capacity: 11 Price: 498.62
+ID: 792275 Date: 2015-7-19 Carrier: DL Number: 2062 Origin: Minneapolis MN Dest: Boston MA Duration: 146.0 Capacity: 13 Price: 251.83
+Itinerary 49: 2 flight(s), 325.0 minutes
+ID: 301322 Date: 2005-7-19 Carrier: NW Number: 172 Origin: Seattle WA Dest: Minneapolis MN Duration: 170.0 Capacity: 8 Price: 613.84
+ID: 789512 Date: 2015-7-19 Carrier: DL Number: 868 Origin: Minneapolis MN Dest: Boston MA Duration: 155.0 Capacity: 14 Price: 990.09
+*

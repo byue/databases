@@ -1,0 +1,28 @@
+# creates several users concurrently, repeats same username
+create user user1 100
+quit
+*
+Created user user
+Goodbye
+|
+Failed to create user
+Goodbye
+*
+create user pass 1000
+quit
+*
+Failed to create user
+Goodbye
+|
+Created user user
+Goodbye
+*
+create user2 pass 1000
+quit
+*
+Created user user2
+Goodbye
+|
+Created user user2
+Goodbye
+*

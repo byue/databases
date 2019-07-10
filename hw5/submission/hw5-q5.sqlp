@@ -1,0 +1,7 @@
+USE hw5;
+SELECT m.name AS mountain_name, m.height AS mountain_height, 
+       c.`-car_code` AS country_code, c.name AS country_name
+FROM world as x, x.mondial.country AS c, x.mondial.mountain AS m, 
+	 split(m.`-country`, " ") as countries
+WHERE c.`-car_code` = countries
+ORDER BY int(m.height) DESC;

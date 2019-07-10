@@ -1,0 +1,22 @@
+USE hw5index;
+SELECT DISTINCT c1.name AS country_name1, c2.name AS country_name2, common_mountains, common_seas
+FROM country as c1, country as c2
+LET seas_id_1 = (SELECT s.`-id`, s.name
+			     FROM sea AS s, split(s.`-country`, " ") AS countries
+			     WHERE c1.`-car_code` = countries),
+seas_id_2 = (SELECT s.`-id`, s.name
+			 FROM sea as s, split(s.`-country`, " ") AS countries
+			 WHERE c2.`-car_code` = countries),
+mountains_id_1 = (SELECT m.`-id`, m.name
+			      FROM mountain as m, split(m.`-country`, " ") AS countries
+			      WHERE c1.`-car_code` = countries),
+mountains_id_2 = (SELECT m.`-id`, m.name
+			      FROM mountain as m, split(m.`-country`, " ") AS countries
+			      WHERE c2.`-car_code` = countries),
+common_mountains = (SELECT mountains_id_1.name
+                    FROM mountains_id_1, mountains_id_2
+                    WHERE mountains_id_1.`-id` = mountains_id_2.`-id`),
+common_seas = (SELECT seas_id_1.name
+              FROM seas_id_1, seas_id_2
+              WHERE seas_id_1.`-id` = seas_id_2.`-id`)
+WHERE c1.`-car_code` < c2.`-car_code` AND EXISTS(common_mountains) AND EXISTS(common_seas);

@@ -1,0 +1,25 @@
+# login concurrently different users
+login user user1
+create user user1 100
+login user user1
+login user user1
+quit
+*
+Login failed
+Created user user
+Logged in as user
+User already logged in
+Goodbye
+*
+login user2 user1
+create user2 user1 100
+login user2 user1
+login user2 user1
+quit
+*
+Login failed
+Created user user2
+Logged in as user2
+User already logged in
+Goodbye
+*

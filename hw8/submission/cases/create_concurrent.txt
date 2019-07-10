@@ -1,0 +1,19 @@
+# creates several users concurrently, different usernames
+create user user1 100
+quit
+*
+Created user user
+Goodbye
+*
+create user2 pass 1000
+quit
+*
+Created user user2
+Goodbye
+*
+create user3 pass 1000
+quit
+*
+Created user user3
+Goodbye
+*

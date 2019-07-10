@@ -1,0 +1,71 @@
+/************ Bryan Yue  **************/
+/************ data model **************/
+.symbol_type PersonType
+.symbol_type DescriptionType
+
+.decl person(name:PersonType, description:DescriptionType)
+.input person(filename="../starter-code/DATA/person.facts")
+
+.decl female(name:PersonType)
+.input female(filename="../starter-code/DATA/female.facts")
+
+.decl male(name:PersonType)
+.input male(filename="../starter-code/DATA/male.facts")
+
+.decl parent_child(p1:PersonType, p2:PersonType)
+.input parent_child(filename="../starter-code/DATA/parent_child.facts")
+
+.decl person_living(p:PersonType)
+.input person_living(filename="../starter-code/DATA/person_living.facts")
+
+/************* problem 0 **************/
+/**** Find all children of Priscilla ****/
+.decl p0(x:PersonType, d:DescriptionType)
+// NOTE: if you want to redirect the output to a file
+// you can use the syntax:
+// .output p0(filename="hw2-q3-0.ans")
+//.output p0(IO=stdout)
+p0(x,d) :- parent_child("Priscilla",x), person(x,d).
+
+/************* problem 1 ***********/
+.decl p1(x:PersonType, d:DescriptionType)
+.output p1(filename="hw4-1.ans")
+p1(x,d) :- p0(x,d).
+p1(x,d) :- p1(y,_), parent_child(y,x), person(x,d).
+
+/************* problem 2 ***********/
+.decl num_children(x:PersonType, n:number)
+.decl max_father_children(n:number) 
+.decl max_mother_children(n:number)
+.decl p2(x:PersonType, d:DescriptionType, n:number)
+.output p2(filename="hw4-2.ans")
+num_children(x, n) :- person(x,_), n=count:{parent_child(x,_)}.
+max_father_children(n) :- n=max childrenNums:{male(x), num_children(x,childrenNums)}.
+max_mother_children(n) :- n=max childrenNums:{female(x), num_children(x,childrenNums)}.
+p2(x,d,n) :- person(x,d), female(x), num_children(x,n), max_mother_children(n).
+p2(x,d,n) :- person(x,d), male(x), num_children(x,n), max_father_children(n).
+
+/************* problem 3 ***********/
+.decl person_in_gen(x:PersonType, n:number)
+.decl p3(x:PersonType, m1:number, m2:number)
+.output p3(filename="hw4-3.ans")
+person_in_gen(x,0) :- person(x,_), !parent_child(_,x).
+person_in_gen(x,n + 1) :- parent_child(y,x), person_in_gen(y,n).
+p3(x,m1,m2) :- person_living(x), m1=min n:{person_in_gen(x,n)}, m2=max n:{person_in_gen(x,n)}.
+
+/************* problem 4 ***********/
+.decl female_ancestor_of(x:PersonType, y:PersonType)
+.decl not_mac(x:PersonType)
+.decl p4(x:PersonType)
+.output p4(filename="hw4-4.ans")
+female_ancestor_of(x,y) :- female(x), parent_child(x,y).
+female_ancestor_of(x,y) :- female_ancestor_of(x,z), female_ancestor_of(z,y).
+not_mac(x) :- person(x,_), person_living(y), !female_ancestor_of(x,y).
+p4(x) :- female(x), !not_mac(x).
+
+/************* problem 5 ***********/
+.decl has_mac_descendents(x:PersonType)
+.decl p5(x:PersonType)
+.output p5(filename="hw4-5.ans")
+has_mac_descendents(x) :- p4(y), female_ancestor_of(x,y).
+p5(x) :- p4(x), !has_mac_descendents(x).

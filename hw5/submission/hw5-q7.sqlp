@@ -1,0 +1,8 @@
+USE hw5;
+SELECT c.`-car_code` AS country_code, c.name AS country_name, seas
+FROM world as x, x.mondial.country AS c
+LET seas = (SELECT s.name
+			FROM x.mondial.sea AS s, split(s.`-country`, " ") AS countries
+			WHERE c.`-car_code` = countries) 
+WHERE ARRAY_COUNT(seas) >= 2
+ORDER BY ARRAY_COUNT(seas) DESC;
